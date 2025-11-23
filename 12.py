@@ -34,7 +34,7 @@ def load_file():
         messagebox.showinfo("Успешно", "Нужные данные были записаны в файл")
 
 okno = Tk()
-okno.title("Зинченко Кирилл Русланович")
+okno.title("access denied")
 okno.geometry("800x600+550+200")
 okno.resizable(False, False)
 
@@ -44,5 +44,6 @@ file_button = Button(okno, text="Получить файл c репозитор�
 file_button.pack()
 file2_button = Button(okno, text="Записать данные в файл", command=load_file)
 file2_button.pack()
+
 
 okno.mainloop()
