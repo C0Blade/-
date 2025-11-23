@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox, filedialog
 
 # Основное окно
 window = Tk()
-window.title("Зинченко Кирилл Русланович")
+window.title("#access denied")
 window.geometry("400x300")
 window.resizable(False, False)
 
@@ -115,5 +115,6 @@ text_button.pack(fill=X)
 # Текстовое поле
 text_field = Text(text_frame, wrap=WORD, bg='black', fg='white')
 text_field.pack()
+
 
 window.mainloop()
